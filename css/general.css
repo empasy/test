@@ -1,0 +1,47 @@
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+}
+body {
+    height:100%;
+}
+.height100 {
+    height: 100%;
+}
+.alert{
+    background-color: #ff6d00;
+}
+.bar-state{
+    height: 47px;
+    width: 3px;
+}
+.bar-state-null{
+    background-color: #FFFFFF;
+}
+.row{
+    margin-bottom: 0;
+    padding: 0;
+}
+.row .col{
+    padding: 0;
+}
+.off{
+    color: #e0e0e0;
+}
+.on{
+    color: #00b0ff;
+}
+.ok{
+    background-color: #eeeeee;
+}
+.switch{
+    margin: 20px 0;
+}
+.tag-switch{
+    margin: 20px 0;
+}
+.warning{
+    background-color: #ffab00;
+}

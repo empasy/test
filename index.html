@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html ng-app="rankmi">
+<head>
+	<base href="/">
+	<title>Procesos</title>
+</head>
+<link rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+	<div class="row height100">
+		<div class="col s12" id="navigation">
+			<navbar></navbar>
+		</div>
+		<div class="col s12 height100">
+			<sidebar></sidebar>
+			<div class="col s9" id="content" ui-view>
+
+			</div>
+		</div>
+	</div>
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+	<script src="bower_components/materialize/dist/js/materialize.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-materialize/0.2.2/angular-materialize.min.js"></script>
+	<script src="https://use.fontawesome.com/bb03bd8a39.js"></script>
+
+	<script type="text/javascript" src="js/app/app.module.js"></script>
+	<script type="text/javascript" src="js/app/app.config.js"></script>
+	<script type="text/javascript" src="js/app/navbar/navbar.module.js"></script>
+	<script type="text/javascript" src="js/app/navbar/navbar.component.js"></script>
+	<script type="text/javascript" src="js/app/sidebar/sidebar.module.js"></script>
+	<script type="text/javascript" src="js/app/sidebar/sidebar.component.js"></script>
+
+	<script>
+    $('ul#slide-out li').click(function() {
+        $('.drag-target').trigger('click');
+    });
+    $('.button-collapse').sideNav();
+    $('.collapsible').collapsible();
+</script>
+</body>
+</html>

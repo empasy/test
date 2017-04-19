@@ -1,0 +1,23 @@
+{
+  "name": "assets-frontend",
+  "authors": [
+    "Gary Arce Díaz <garyarcediaz@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "jquery": "^3.2.1",
+    "materialize": "^0.98.2",
+    "angular-ui-router": "^0.4.2"
+  }
+}

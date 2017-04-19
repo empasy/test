@@ -1,0 +1,51 @@
+[
+  {
+    "id":13,
+    "name":"Encuesta de Clima Laboral 2016",
+    "description":"Encuesta de Clima Laboral 2016",
+    "start_date":"2016-12-01T03:00:00.926Z",
+    "due_date":"2016-12-06T03:00:00.927Z",
+    "created_at":"2016-11-30T22:44:06.098Z",
+    "status":2,
+    "survey_to_answer":false,
+    "survey_to_answer_status":0,
+    "only_import_results":true,
+    "process_id":34,
+    "module":{
+      "name":"Clima",
+      "icon":"/icons/original/missing.png",
+      "id":3,
+      "code":"rkm_03"
+    },
+    "progress":{
+      "response_rate":0
+    },
+     "token":"04f77115-83dc-4608-955d-f51cbadf1dc9"
+    
+  },
+  {
+    "name":"Levantamiento de Información de Desarrollo.",
+    "id":60,
+    "type":"process",
+    "description":"Levantamiento de Información de Desarrollo.",
+    "due_date":"2017-01-21",
+    "start_date":"2016-11-28",
+    "status":1,
+    "created_at":"2016-11-28T00:59:16.056Z",
+    "module":{
+      "name":"Desempeño",
+      "icon":"https://rankmi-prod.s3.amazonaws.com/rankmi_modules/icons/original/ico-06.png?1447726529",
+      "id":1,
+      "code":"rkm_01"
+    },
+    "token":"04f77115-83dc-4608-955d-f51cbadf1dc9",
+    "domain":"Desempeño",
+    "progress":{
+      "response_rate":0.89
+    },
+    "is_evaluable":false,
+    "is_evaluator":false,
+    "has_autoevaluation":false,
+    "is_validator":false
+  }
+]

@@ -1,0 +1,71 @@
+<div class="process">
+	<ul class="collection">
+		<li class="collection-item color-header">
+			<span class="font-700">Procesos activos</span>
+			<p class="font-size-08">Revisa los procesos en los que estás participando</p>
+		</li>
+		<li class="collection-item col s12" ng-repeat=" process in activeProcess ">
+			<div class="col s12 process-margin">
+				<div class="col s1">
+					<img class="process-image" src="assets/{{ process.module.code }}.png">
+				</div>
+				<div class="col s4">
+					<span class="process-title"> {{ process.name }} </span>
+					<p class="process-comment"> {{ process.description }} </p>
+				</div>
+				<div class="col s4">
+					<div class="progress">
+						<div class="determinate" style="width: {{ process.progress.response_rate * 100 }}%"></div>
+					</div>
+					<div class="textCenter col s4 line-height-18">
+						<span class="title-state">Estado del proceso</span><br>
+						<span class="green-color">&#x25cf;</span> <span class="status-state">En Progreso</span>
+					</div>
+					<div class="textCenter col s4 line-height-18">
+						<span class="title-state">Fecha de término</span><br>
+						<span class="status-state"> {{ process.due_date }} </span>
+					</div>
+					<div class="textCenter col s4 line-height-18">
+						<span class="title-state">Avance <i class="tiny material-icons">info_outline</i></span><br>
+						<span class="status-state green-color"> {{ process.progress.response_rate * 100 }}%</span>
+					</div>
+				</div>
+				<div class="col s3">
+					<a class="btn primary-blue right">
+						<span class="span-button-primary">Realizar Evaluación</span>
+					</a>
+					<a class="dropdown-button btn plomo right" href='#' data-activates='dropdown1' dropdown>
+						<span class="span-button-primary">Ver monitoreo</span>
+					</a>
+				</div>
+				<ul id='dropdown1' class='dropdown-content' hover="true">
+					<li><a href="#!">one</a></li>
+					<li><a href="#!">two</a></li>
+				</ul>
+			</div>
+		</li>
+	</ul>
+	<ul class="collection">
+		<li class="collection-item color-header">
+			<span class="font-700">Procesos finalizados</span>
+			<p class="font-size-08">Revisa los procesos que ya realizaste</p>
+		</li>
+		<li class="collection-item col s12" ng-repeat=" process in finishedProcess ">
+			<div class="col s12 finish-process-margin">
+				<div class="col s1">
+					<img class="finish-process-image" src="assets/{{ process.module.code }}.png">
+				</div>
+				<div class="col s6 margin-top-7">
+					<span class="finish-process-title"> {{ process.name }} </span>
+				</div>
+				<div class="textCenter col s2 line-height-18">
+					<span class="title-state">Estado del proceso</span><br>
+					<span class="blue-color">&#x25cf;</span> <span class="status-state">Finalizado</span>
+				</div>
+				<div class="col s3 text-blue">
+					<span class="results">Ver resultados</span> <i class="small material-icons margin-right-64">trending_flat</i>
+				</div>
+			</div>
+		</li>
+	</ul>
+</div>

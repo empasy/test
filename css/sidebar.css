@@ -1,0 +1,102 @@
+side{
+    color: #999999;
+}
+footer {
+   position:fixed;
+   bottom:0px;
+   text-align: center;
+   background-color: #f5f5f5;
+   color: #757575;
+   z-index: 1000;
+}
+input[type=text]{
+    margin: 0;
+    height: 2.2rem;
+}
+i.right{
+    margin-left: 0;
+}
+p{
+    margin: 3px 20px 0 20px;
+}
+span.badge.warning{
+    background-color: #ff6d00;;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+nav ul li a{
+    height: 56px;
+}
+#dropdown1{
+    margin-top: 56px;
+}
+.collection-map {
+    margin: 0!important;
+}
+.collection .collection-item{
+    padding: 4px 20px;
+    border-bottom: none;
+}
+.collapsible-header{
+    padding: 0 0 0 1em;
+}
+.collapsible-body{
+    padding: 0;
+}
+.collapsible span.badge{
+    margin-top: 0;
+}
+.collection a.collection-item:not(.active):hover{
+    background-color: ;
+}
+.copy-right{
+    font-size: 10px;
+}
+.irrigation-programmer{
+    margin-bottom: 30px;
+}
+.map-gestion{
+    padding: 5px!important;
+}
+.map-management{
+    margin-top: 95px;
+}
+.nav-content{
+    margin-top: 56px;
+}
+.label-seleciton{
+    padding-left: 0!important;
+}
+.last-capture{
+    margin-top: 20px!important;
+}
+.sidebar{
+    margin-bottom: 120px;
+    margin-top: 95px;
+}
+.sidebar-nav{
+    background-color: #FFFFFF;
+    position: fixed;
+    z-index: 10;
+}
+.station-status{
+    height: 45px;
+    margin: 0;
+    margin-right: 0!important;
+    width: 13px!important;
+}
+.soil-lvl{
+    padding-left: 30px!important;
+}
+.source-logo{
+    width: 65px;
+}
+.tabs{
+    height: 38px;
+}
+.tabs .tab{
+    height: 38px;
+}
+.type-icon{
+    width: 35px;
+}

@@ -1,0 +1,241 @@
+* { padding: 0; margin: 0; }
+html, body {
+    min-height: 100% !important;
+    height: 100%;
+    font-family: 'Open Sans', Arial;
+    background-color: #ECECEC;
+    font-weight: 300;
+}
+nav{
+    background-color: #024F9D;
+    height: 56px;
+    position: fixed;
+    z-index: 1000;
+}
+label {
+    font-family: 'Open Sans', Arial;
+    color: white;
+}
+.btn {
+    text-transform: none;
+}
+.comment {
+    background-color: #fff;
+    height: 56px;
+    margin-top: 56px;
+}
+.row .col {
+    padding: 0 0rem !important;
+}
+.inline-block{
+    display: inline-block;
+}
+.side-nav {
+    top: initial !important;
+}
+.img-user-nav {
+    max-height: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+.user-name{
+    font-size: 10pt;
+    position: absolute;
+    margin-left: 15px;
+}
+.logo{
+    max-height: 56px;
+    padding-left: 5%;
+    padding-right: 10px;
+}
+.textCenter {
+    text-align: center;
+}
+.icon-nav {
+    display: block !important;
+    height: 5px !important;
+    padding-top: 5px;
+    line-height: 25px !important;
+}
+.text-nav {
+    height: 20px;
+}
+.caret-down {
+    vertical-align: 13px;
+    line-height: 0px !important;
+    height: 13px !important;
+}
+.name-nav {
+    vertical-align: 14px;
+}
+.blue-init {
+    color: #6894CA;
+}
+.font-700{
+    font-weight: 700;
+    font-size: .9rem;
+}
+.text-comment {
+    margin-top: 17px;
+    margin-left: 5%;
+}
+.rem1 {
+    font-size: 1rem;
+}
+.margin-left-30 {
+    margin-left: 30px;
+}
+.btn-comment {
+    margin-top: 9px;
+    margin-right: 5%;
+}
+.margin-right-5{
+    margin-right: 5%;
+}
+.sidebar-div {
+    height: 350px;
+    margin-left: 5% !important;
+    margin-top: 30px;
+    background: linear-gradient(0deg, #FFFFFF 50%, #254B76 50%);
+    border-radius: 1%;
+    border: 1px solid #C2C2C2;
+}
+.img-user-sid {
+    border-radius: 50%;
+    display: inline-block;
+    margin: 44% 0% 0% 23%;
+    border: 2px solid #FFF;
+    box-shadow: inset 2px 2px 2px rgba(255,255,255,.7), inset -1px -1px 2px rgba(0,0,0,.1), 1px 1px 5px rgba(0,0,0,.1);
+}
+.name {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: 700;
+}
+.position {
+    text-align: center;
+    color: #9E9BA5;
+    font-size: .9rem;
+}
+.collection .collection-item {
+    padding: 10px 13px;
+    line-height: 1rem;
+}
+.font-size-08{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.process{
+    margin-left: 3%;
+    margin-top: 30px;
+    margin-right: 2%;
+}
+.color-header {
+    background-color: #F6F7F9 !important;
+    padding-left: 3% !important;
+}
+.process-comment {
+    font-size: .6rem;
+    text-align: justify;
+    line-height: 13px;
+    font-weight: 400;
+}
+.process-title {
+    font-size: .7rem;
+    font-weight: 700;
+}
+.process-image {
+    max-width: 50px;
+    margin-left: 23%;
+}
+.process-margin {
+    margin: 15px 10px 15px 10px !important;
+}
+.success-green {
+    background-color: #5BBD2F;
+}
+.primary-blue{
+    background-color: #329DEB;
+    height: 20px;
+    width: 160px;
+    margin-right: 23%;
+    font-size: .7rem;
+    padding: 0px;
+    margin-bottom: 15px;
+}
+.plomo{
+    background-color: #F6F7F9;
+    color: #000;
+    height: 20px;
+    width: 160px;
+    margin-right: 23%;
+    font-size: .7rem;
+    padding: 0px;
+}
+.span-button-primary {
+    vertical-align: 9px;
+    line-height: 0px;
+}
+.title-state{
+    color: #9E9298;
+    font-size: .7rem;
+}
+.green-color{
+    color: #5BBD2F;
+}
+.status-state{
+    font-size: .8rem;
+    font-weight: 600;
+}
+.progress{
+    margin: 0rem;
+    margin-top: 7px;
+    background-color: #D7D7D7;
+}
+.progress .determinate {
+    background-color: #5BBD2F;
+}
+.line-height-18{
+    line-height: 18px;
+}
+.info-icon{
+    border-radius: 50%;
+    border: 1px solid #D7D7D7;
+}
+.finish-process-margin{
+    margin: 4px 0px 0px 0px !important;
+}
+.finish-process-image{
+    max-width: 40px;
+    margin-left: 35%;
+}
+.finish-process-title{
+    font-weight: 700;
+    font-size: .7rem;
+}
+.blue-color{
+    color: #3E61FB;
+}
+.margin-top-7 {
+    margin-top: 7px;
+}
+.text-blue{
+    color: #1F8FFB;
+    text-align: right;
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+.results{
+    display: inline-block;
+    vertical-align: 10px;
+    padding-top: 10px;
+}
+.margin-right-64{
+    margin-right: 23%;
+}
+
+
+
+
+
